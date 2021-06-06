@@ -29,7 +29,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qru-WY-cTd" secondAttribute="bottom" id="yPA-Fc-jnn"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map View" id="ola-hp-9ft"/>
+                    <tabBarItem key="tabBarItem" title="Map View" image="map.fill" catalog="system" id="ola-hp-9ft"/>
                     <connections>
                         <outlet property="mapView" destination="qru-WY-cTd" id="d2h-EY-5xB"/>
                     </connections>
@@ -59,7 +59,7 @@
         <!--BuildList-->
         <scene sceneID="WZC-me-WYM">
             <objects>
-                <viewController id="qaM-Mm-tmi" customClass="ViewController" customModule="BuildListApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qaM-Mm-tmi" customClass="ViewController" customModule="RestaurantTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dUa-la-kXe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,7 +112,7 @@
                             <constraint firstItem="5mY-rT-Tje" firstAttribute="top" secondItem="ddd-QG-zlP" secondAttribute="top" id="Ty9-Wr-AoM"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="VMn-sh-oXp"/>
+                    <tabBarItem key="tabBarItem" title="Restaurant Tracker" image="pencil" catalog="system" id="VMn-sh-oXp"/>
                     <navigationItem key="navigationItem" title="BuildList" id="W6z-tj-pYm">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="naO-st-asr">
                             <connections>
@@ -132,7 +132,7 @@
         <!--Entry View Controller-->
         <scene sceneID="gmS-XZ-XW0">
             <objects>
-                <viewController storyboardIdentifier="new" id="t7t-aE-hYb" customClass="EntryViewController" customModule="BuildListApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="new" id="t7t-aE-hYb" customClass="EntryViewController" customModule="RestaurantTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zmA-yy-BI6" customClass="Entryv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,7 +177,7 @@
         <!--Build List View Controller-->
         <scene sceneID="4mt-XT-I5j">
             <objects>
-                <viewController storyboardIdentifier="buildList" id="vLR-HQ-nOW" customClass="BuildListViewController" customModule="BuildListApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="buildList" id="vLR-HQ-nOW" customClass="BuildListViewController" customModule="RestaurantTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8AM-ey-3uU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -222,6 +222,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="map.fill" catalog="system" width="128" height="110"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711D12F4266D568800E3CDDA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D12F3266D568800E3CDDA /* MapViewController.swift */; };
+		711D12F7266D5BAF00E3CDDA /* BuildListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D12F5266D5BAF00E3CDDA /* BuildListViewController.swift */; };
+		711D12F8266D5BAF00E3CDDA /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D12F6266D5BAF00E3CDDA /* EntryViewController.swift */; };
 		719EB2D5265EC763000A8FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EB2D4265EC763000A8FC0 /* AppDelegate.swift */; };
 		719EB2D7265EC763000A8FC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EB2D6265EC763000A8FC0 /* SceneDelegate.swift */; };
 		719EB2D9265EC763000A8FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EB2D8265EC763000A8FC0 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		711D12F3266D568800E3CDDA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		711D12F5266D5BAF00E3CDDA /* BuildListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildListViewController.swift; sourceTree = "<group>"; };
+		711D12F6266D5BAF00E3CDDA /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		719EB2D1265EC763000A8FC0 /* RestaurantTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719EB2D4265EC763000A8FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		719EB2D6265EC763000A8FC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				719EB2D4265EC763000A8FC0 /* AppDelegate.swift */,
 				719EB2D6265EC763000A8FC0 /* SceneDelegate.swift */,
 				719EB2D8265EC763000A8FC0 /* ViewController.swift */,
+				711D12F3266D568800E3CDDA /* MapViewController.swift */,
+				711D12F5266D5BAF00E3CDDA /* BuildListViewController.swift */,
+				711D12F6266D5BAF00E3CDDA /* EntryViewController.swift */,
 				719EB2DA265EC763000A8FC0 /* Main.storyboard */,
 				719EB2DD265EC763000A8FC0 /* Assets.xcassets */,
 				719EB2DF265EC763000A8FC0 /* LaunchScreen.storyboard */,
@@ -139,7 +148,10 @@
 			files = (
 				719EB2D9265EC763000A8FC0 /* ViewController.swift in Sources */,
 				719EB2D5265EC763000A8FC0 /* AppDelegate.swift in Sources */,
+				711D12F7266D5BAF00E3CDDA /* BuildListViewController.swift in Sources */,
 				719EB2D7265EC763000A8FC0 /* SceneDelegate.swift in Sources */,
+				711D12F4266D568800E3CDDA /* MapViewController.swift in Sources */,
+				711D12F8266D5BAF00E3CDDA /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
